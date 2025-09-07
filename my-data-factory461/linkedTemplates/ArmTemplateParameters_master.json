@@ -1,0 +1,48 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "my-data-factory461"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage2_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage3_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage4_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage5_connectionString": {
+			"value": ""
+		},
+		"b2b_additional_link_not_required_connectionString": {
+			"value": ""
+		},
+		"b2b_linkedservice_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "server46.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "lsmdb"
+		},
+		"BlobCreatedTrigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/00359d8d-e7f9-4469-a35c-c8f80abd0d6f/resourceGroups/john461cenindia46/providers/Microsoft.Storage/storageAccounts/tutorialjohn4658"
+		},
+		"trigger2_properties_typeProperties_scope": {
+			"value": "/subscriptions/00359d8d-e7f9-4469-a35c-c8f80abd0d6f/resourceGroups/john461cenindia46/providers/Microsoft.Storage/storageAccounts/tutorialjohn4658"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
