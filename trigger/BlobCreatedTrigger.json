@@ -1,0 +1,25 @@
+{
+	"name": "BlobCreatedTrigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "copyAmongContainers",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/lsm-input/blobs/",
+			"blobPathEndsWith": "sv",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/00359d8d-e7f9-4469-a35c-c8f80abd0d6f/resourceGroups/john461cenindia46/providers/Microsoft.Storage/storageAccounts/tutorialjohn4658",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "LeadID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Lead_Created_Date",
+				"type": "date"
+			},
+			{
+				"name": "First_Name",
+				"type": "varchar"
+			},
+			{
+				"name": "Phone_Number",
+				"type": "varchar"
+			},
+			{
+				"name": "City",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Leads_LSM"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
